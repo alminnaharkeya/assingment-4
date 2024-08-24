@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1440px;
+}
+
+.bannar-bg{
+    background-image: url(image/bannar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 683PX;
+
+}
+.bannar-area h1{
+    background-color: white;
+    width: 330px;height: 83px;
+    letter-spacing: 10px;
+    padding: 22px;text-align: center; 
+}
+.bannar-area p{
+    background-color: white;
+    width:495px ;height:56px ;
+    font-size: 24px;
+    padding: 10px;
+}
+.btn-1{
+    height:42px ;
+    width: 171px;
+    border-color: black;
+    margin-top: 10px;
+}
+.dynamic{
+    margin-left: 160px;
+}
+.service-bannar-img{
+    background-image: url(image/service-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 680px;
+}
+.service-bannar-area h1{
+    background-color: white;
+    width: 330px;height:83px ;
+    letter-spacing: 15px;
+    padding: 22px;text-align: center;
+}
+.service-bannar-area p{
+    background-color: white;
+    width: 1000px;
+    padding: 10px;
+    height: 93px;
+    font-size: 24px; 
+}
+.about-bannar-img{
+    background-image: url(image/about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 590px;
+}
+.about-bannar-area h1{
+    background-color: white;
+    width: 359px;height:83px ;
+    letter-spacing: 15px;
+    padding: 22px;text-align: center;
+}
+.about-bannar-area p{
+    background-color: white;
+    width: 581px;
+    padding: 10px;
+    height: 68px;
+    font-size: 24px; 
+}
+.our-team{
+    width: 1241px;
+    height: 203px;
+    padding: 20px 0 20px 0;
+    font-size: 24px;
+    margin-left:300px;
+    padding-top: 60px;
+}
+.two-convenient{
+    font-size:24px; 
+    padding-bottom: 20px;
+    margin-left: 15px;
+    padding-top: 40px;
+}
+.image{
+    padding-top: 25px;
+    margin-left: 20px;
+    padding-bottom: 50px;
+}
+.image{
+    padding-top: 10px;
+    margin-left: 20px;
+    padding-bottom: 40px;
+    height: 450px;
+    width: 450px;
+}
+.media-bannar-img{
+    background-image: url(image/service.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 781px;
+}
+.media-bannar-area h1{
+    background-color: white;
+    width: 491px;height:83px ;
+    padding: 22px;letter-spacing: 13px;
+}
+.media-bannar-area p{
+    background-color: white;
+    width: 630px;
+    padding: 10px;
+    height: 68px;
+    font-size: 24px; 
+}
+.heading{
+    padding-top: 70px;
+    margin-left: 160px;
+}
+.banner-card-1{
+    background-image: url(image/Rectangle\ 18.png);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    height: 375px;
+
+}
+.color{
+    color: white;
+    text-align: center;
+    padding-top: 185px;
+}
+.human{
+    padding-bottom: 60px;
+}
+
+.banner-card-2{
+        background-image: url(image/Rectangle\ 19.png);
+        background-size: cover;
+        background-repeat:no-repeat ;
+        height: 375px;
+    }
+    .banner-card-3{
+        background-image: url(image/Rectangle\ 20.png);
+        background-size: cover;
+        background-repeat:no-repeat ;
+        height: 375px;
+    }
+    .banner-card-4{
+        background-image: url(image/Rectangle\ 21.png);
+        background-size: cover;
+        background-repeat:no-repeat ;
+        height: 375px;
+    }
+
+
+    /* footer-area-start */
+    .circle{
+        border: 2px solid white;
+        height: 80px;
+        width: 80px;
+        border-radius:50% ;
+        
+    }
+    .bttn{
+       margin-top: -60px;
+    }
+    .position{
+        padding-top: 50px;
+      
+    }
+    .position-1{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    /* footer-area-start */
+
+
+
+
+@media (max-width:992px) {
+    .bannar-bg{
+    
+      width: 100%;
+    }
+    h1{
+        font-size:45px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:576px) {
+    .bannar-bg{
+    
+      width: 100%;
+    }
+    h1{
+        font-size:30px;
+    }
+    p{
+        font-size: 10px;
+}
+}
+
+
+
+
+@media (max-width:768px ) {
+    .about-bannar-img{
+ 
+      width: 100%;
+    }
+    h1{
+        font-size:25px;
+    }
+    p{
+        font-size: 17px;
+    }
+
+}
+
+
+
+@media (max-width:992px) {
+    .about-bannar-bg{
+     
+      width: 100%;
+    }
+    h1{
+        font-size:40px;
+    }
+    p{
+        font-size: 22px;
+    }
+
+    
+}
+
+@media (max-width:576px) {
+    .about-bannar-bg{
+    
+      width: 100%;
+    }
+    h1{
+        font-size:30px;
+    }
+    p{
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width:768px ) {
+    .service-bannar-img{
+    
+      width: 100%;
+    }
+    h1{
+        font-size:25px;
+        width: 100px;
+    }
+    p{
+        font-size: 17px;
+    }
+
+    
+}
+
+@media (max-width:570px) {
+    .service-bannar-img{
+    
+      width: 100%;
+    }
+    h1{
+        font-size:20px;
+        width: 90px;
+    }
+    p{
+        font-size: 10px;
+    }
+
+}
+
+
+
+
+@media (max-width:992px) {
+    .service-bannar-bg{
+     
+      width: 100%;
+    }
+    h1{
+        font-size:30px;
+        width: 110px;
+    }
+    p{
+        font-size: 20px;
+    }
+
+
+}
+
+@media (max-width:768px ) {
+    .media-bannar-img{
+   
+      width: 100%;
+    }
+    h1{
+        font-size:25px;
+        width: 120px;
+    }
+    p{
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width:576px) {
+    .media-bannar-img{
+    
+      width: 100%;
+    }
+    h1{
+        font-size:20px;
+       
+    }
+    p{
+        font-size: 10px;
+    }
+  
+}
+
+
+
+
+@media (max-width:992px) {
+    .media-bannar-bg{
+     
+      width: 100%;
+    }
+    h1{
+        font-size:30px;
+    }
+    p{
+        font-size: 15px;
+    }
+
+}
+
+
+
+
+
